@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/agrito_deploy/", // GitHub Pages repository name
   server: {
     host: "::",
     port: 8080,
