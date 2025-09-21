@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? "/agrito_deploy/" : "/", // Only use base path for production builds
+  base: command === 'build' ? "/agrito_deploy/" : "/", // Different paths for dev and production
   server: {
     host: "::",
     port: 8080,
